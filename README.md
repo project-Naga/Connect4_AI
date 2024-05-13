@@ -10,22 +10,25 @@ ConnectFour is a classic game implemented in Python, featuring AI players and a 
   - `RandomPlayer`: Chooses moves randomly.
   - `HumanPlayer`: Allows human input for moves.
 
+### GUI Description
+![img1.png](imgaes/img1.png)
+
+- The top text displays the player making the next move.
+- Circles represent the game board.
+- The "Next Move" button progresses the game.
+- Upon game end, the top text displays the winning player.
+
 ## Usage
 
--To play the game, run the following command:
+- To play the game, run the following command:
   - "python ConnectFour.py arg1 arg2"
 
 - arg1 and arg2 can be AI, random, or human.
 - For example, to play against a random player: python ConnectFour.py human random.
 - To let AI players play against each other: python ConnectFour.py ai ai.
 
-## Optional Arguments
-
-### GUI Description
-- The top text displays the player making the next move.
-- Circles represent the game board.
-- The "Next Move" button progresses the game.
-- Upon game end, the top text displays the winning player.
+Shown below is an example of a Random player:
+![img2.png](imgaes/img2.png)
   
 ### AI Algorithms
 - get_alpha_beta_move(board): Implements Alpha-Beta Pruning.
