@@ -26,7 +26,7 @@ ConnectFour is a classic game implemented in Python, featuring AI players and a 
 - For example, to play against a random player: python ConnectFour.py human random.
 - To let AI players play against each other: python ConnectFour.py ai ai.
 
-Shown below is an example of a Random player:
+Shown below is an example of a AI player:
 
 ![img2.png](./images/img2.png)
   
