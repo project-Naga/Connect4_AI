@@ -11,8 +11,7 @@ ConnectFour is a classic game implemented in Python, featuring AI players and a 
   - `HumanPlayer`: Allows human input for moves.
 
 ### GUI Description
-![img1.png](./images/img1.png)
-
+<img1 src="./images/img1.png" width="200" />
 - The top text displays the player making the next move.
 - Circles represent the game board.
 - The "Next Move" button progresses the game.
@@ -29,7 +28,7 @@ ConnectFour is a classic game implemented in Python, featuring AI players and a 
 
 Shown below is an example of a Random player:
 
-![img2.png](./images/img2.png)
+<img2 src="./images/img2.png" width="200" />
   
 ### AI Algorithms
 - get_alpha_beta_move(board): Implements Alpha-Beta Pruning.
